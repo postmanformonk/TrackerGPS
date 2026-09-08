@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.File
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -23,7 +26,22 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        val mapTilerKey = (project.findProperty("MAPTILER_API_KEY") as String?) ?: ""
+        // ============================
+        // 🔥 БЕЗОПАСНОЕ ЧТЕНИЕ API-КЛЮЧА
+        // ============================
+
+        // Читаем secrets.properties из корня проекта
+        val secrets = Properties().apply {
+            val file = File(rootDir, "secrets.properties")
+            if (file.exists()) {
+                load(file.inputStream())
+            }
+        }
+
+        // Если файла нет — заглушка
+        val mapTilerKey = secrets.getProperty("MAPTILER_API_KEY", "YOUR_MAPTILER_API_KEY_HERE")
+
+        // Прокидываем ключ в BuildConfig
         buildConfigField("String", "MAPTILER_API_KEY", "\"$mapTilerKey\"")
     }
 
@@ -36,6 +54,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
     kotlinOptions {
         jvmTarget = "17"
     }

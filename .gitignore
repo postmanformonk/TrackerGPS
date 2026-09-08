@@ -22,3 +22,9 @@ captures/
 *.aab
 *.zip
 
+# Secrets
+secrets.properties
+local.properties
+*.keystore
+*.jks
+
