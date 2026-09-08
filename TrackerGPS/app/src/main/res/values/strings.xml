@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GPS Tracker</string>
+    <string name="notification_channel_name">Route recording</string>
+    <string name="notification_recording_title">Recording track...</string>
+    <string name="notification_recording_text">Distance: %1$s km · Speed: %2$s km/h</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="history_title">Trip history</string>
+    <string name="speed_label">Speed</string>
+    <string name="distance_label">Distance</string>
+    <string name="duration_label">Duration</string>
+    <string name="max_speed_label">Max speed</string>
+    <string name="avg_speed_label">Average speed</string>
+    <string name="start_trip">Start</string>
+    <string name="stop_trip">Stop</string>
+    <string name="permission_required">Location permission is required to track your route</string>
+</resources>

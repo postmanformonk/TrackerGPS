@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ru-msk-oblast",
+    "country": "Россия",
+    "name": "Московская область",
+    "southWestLat": 54.25,
+    "southWestLng": 35.15,
+    "northEastLat": 56.95,
+    "northEastLng": 40.20,
+    "approxSizeMb": 850
+  },
+  {
+    "id": "ru-msk-city",
+    "country": "Россия",
+    "name": "Москва",
+    "southWestLat": 55.49,
+    "southWestLng": 37.32,
+    "northEastLat": 56.01,
+    "northEastLng": 37.97,
+    "approxSizeMb": 180
+  },
+  {
+    "id": "ru-spb",
+    "country": "Россия",
+    "name": "Санкт-Петербург и Ленинградская область",
+    "southWestLat": 58.85,
+    "southWestLng": 27.75,
+    "northEastLat": 61.35,
+    "northEastLng": 35.35,
+    "approxSizeMb": 720
+  },
+  {
+    "id": "ru-tatarstan",
+    "country": "Россия",
+    "name": "Республика Татарстан",
+    "southWestLat": 53.97,
+    "southWestLng": 47.26,
+    "northEastLat": 56.68,
+    "northEastLng": 54.29,
+    "approxSizeMb": 640
+  },
+  {
+    "id": "ru-krasnodar",
+    "country": "Россия",
+    "name": "Краснодарский край",
+    "southWestLat": 43.55,
+    "southWestLng": 36.65,
+    "northEastLat": 46.95,
+    "northEastLng": 41.05,
+    "approxSizeMb": 590
+  },
+  {
+    "id": "ru-sverdlovsk",
+    "country": "Россия",
+    "name": "Свердловская область",
+    "southWestLat": 56.05,
+    "southWestLng": 58.05,
+    "northEastLat": 61.85,
+    "northEastLng": 66.35,
+    "approxSizeMb": 610
+  },
+  {
+    "id": "de-bavaria",
+    "country": "Германия",
+    "name": "Бавария",
+    "southWestLat": 47.27,
+    "southWestLng": 8.98,
+    "northEastLat": 50.56,
+    "northEastLng": 13.84,
+    "approxSizeMb": 910
+  },
+  {
+    "id": "de-berlin",
+    "country": "Германия",
+    "name": "Берлин",
+    "southWestLat": 52.34,
+    "southWestLng": 13.09,
+    "northEastLat": 52.68,
+    "northEastLng": 13.76,
+    "approxSizeMb": 95
+  },
+  {
+    "id": "fr-idf",
+    "country": "Франция",
+    "name": "Иль-де-Франс",
+    "southWestLat": 48.12,
+    "southWestLng": 1.45,
+    "northEastLat": 49.24,
+    "northEastLng": 3.56,
+    "approxSizeMb": 430
+  },
+  {
+    "id": "kz-almaty",
+    "country": "Казахстан",
+    "name": "Алматинская область",
+    "southWestLat": 42.87,
+    "southWestLng": 75.20,
+    "northEastLat": 46.60,
+    "northEastLng": 81.35,
+    "approxSizeMb": 520
+  }
+]

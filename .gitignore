@@ -1,11 +1,24 @@
-#.gitignore
-build/
+# Gradle
 .gradle/
+build/
+
+# Android Studio
 .idea/
-*.apk
-*.zip
-.DS_Store
-captures/
-.externalNativeBuild/
-.cxx/
+*.iml
 local.properties
+
+# Generated
+.cxx/
+.externalNativeBuild/
+captures/
+.kotlin/
+8.10.2/
+
+# OS junk
+.DS_Store
+
+# APK / AAB / ZIP
+*.apk
+*.aab
+*.zip
+
