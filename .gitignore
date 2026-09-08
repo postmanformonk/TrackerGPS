@@ -1,0 +1,11 @@
+#.gitignore
+build/
+.gradle/
+.idea/
+*.apk
+*.zip
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
